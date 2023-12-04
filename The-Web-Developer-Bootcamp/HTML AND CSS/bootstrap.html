@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<style type="text/css">
+		.btn-danger{
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Bootstrap Basics</h1>
+
+	<div class="container">
+  <div class="jumbotron">
+    <h1>Hello, world!</h1>
+  <p>click down go to facebook home page</p>
+  <p><a class="btn btn-primary btn-lg" href="https://www.facebook.com" role="button">Facebook</a></p>
+  </div>
+
+  <button class="btn btn-danger btn-xs">Click me!</button>
+	<button class="btn btn-success btn-sm">Click me!</button>
+	<button class="btn btn-success btn-sm active">Click me!</button>
+	<button class="btn btn-success btn-lg" disabled="disabled">Click me!</button>
+	<a href="http://www.getbootstrap.com" class="btn btn-info bt-lg">Bootstap Docs</a>
+
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+</form>
+</div>
+
+
+</body>
+</html>

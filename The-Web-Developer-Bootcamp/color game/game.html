@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+     
+    <!--  in this h1 we give some text and <br> to change the line 
+     in span we give a id to RGB because we have to
+     change RGB every time so we by the help of span and an id it can be selected very easily -->
+	<h1>The Great<br><span id="colorDisplay">RGB</span><br>Color Game</h1>
+
+<!-- in the div we create a three button and a span 
+every button is given a class or id because we have to select it and do some css and javascript
+ -->
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button class="mode">Easy</button>
+	<button class="mode selected">Hard</button>
+</div>
+
+<!-- in the div we give every div to a square class this is because this is our six color picker which we do some css and javascript  -->
+
+<div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+
+
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
