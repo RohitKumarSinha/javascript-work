@@ -1,0 +1,6 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_361591-896.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the image fixed in place */
+  }
